@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Game Developer</title>
+    <link rel="icon" href="images/dev.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="#footer">
+                GAME <span class="dev">DEV</span><span class="hide-mobile">ELOPER</span>
+            </a>
+        </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <main class="home-section">
+        <div class="home-img">
+            <img src="images/dev.png" alt="Profile Image" />
+        </div>
+        <div class="home-text">
+            <h6>Hey there! I am</h6>
+            <h2>MATTHEW MARI</h2>
+            <h4 id="animated-text"></h4>
+            <button onclick="location.href='images/mycv.jpg'" class="cv-button">Download CV</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <h3>© 2025 MATTHEW MARI</h3>
+    </footer>
+
+    <!--Navbar JS-->
+    <script src="scripts.js"></script>
+
+    <!--Profession JS-->
+    <script>
+        const roles = ["PROGRAMMER", "WEB DEVELOPER", "DIGITAL ARTIST", "UI/UX DESIGNER", "GAME DEVELOPER"];
+        let current = 0;
+        const textElement = document.getElementById("animated-text");
+
+        function rotateText() {
+            textElement.textContent = roles[current];
+            current = (current + 1) % roles.length;
+        }
+
+        rotateText();
+        setInterval(rotateText, 2000);
+    </script>
+</body>
+
+</html>
