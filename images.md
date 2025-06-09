@@ -1,0 +1,5 @@
+![dev](https://github.com/user-attachments/assets/728d35bd-653a-4045-8633-dc28477deeb3)
+![mycv](https://github.com/user-attachments/assets/c3ce3ba4-9432-4dec-8d7a-a8c7fa7792c2)
+![linkedin](https://github.com/user-attachments/assets/cb26f497-f4e1-42a2-9529-9b85fba42917)
+![github](https://github.com/user-attachments/assets/205cac73-5dcd-4749-87fb-8a080dfdc332)
+![facebook](https://github.com/user-attachments/assets/b36eeb84-1986-4270-9ce7-fee4c365d80d)
